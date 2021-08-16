@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-ht8sxp!%8&)x498!or5f@=f^pi*^0ydey&*g5a)c9ipcffh44y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['webs-portfolio.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -110,6 +110,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
